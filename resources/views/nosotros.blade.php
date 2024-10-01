@@ -81,56 +81,6 @@
         <!-- Feature End -->
 
 
-        <!-- Registration Start -->
-        <!-- <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
-            <div class="container py-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 mb-5 mb-lg-0">
-                        <div class="mb-4">
-                            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">HidroBolívar</h6>
-                            <h1 class="text-white"><span class="text-primary">Hidro</span>Web</h1>
-                        </div>
-                        <p class="text-white">Mi gallo pinto</p>
-                        <ul class="list-inline text-white m-0">
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Eficiencia</li>
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Excelencia</li>
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Compromiso</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="card border-0">
-                            <div class="card-header bg-primary text-center p-4">
-                                <h1 class="text-white m-0">Inicia sesión</h1>
-                            </div>
-                            <div class="card-body rounded-bottom bg-white p-5">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control p-4" placeholder="Nombre" required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control p-4" placeholder="Email" required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="custom-select px-4" style="height: 47px;">
-                                            <option selected>Select a destination</option>
-                                            <option value="1">destination 1</option>
-                                            <option value="2">destination 1</option>
-                                            <option value="3">destination 1</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <button class="btn btn-primary btn-block py-3" type="submit">Inicia ahora</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Registration End -->
-
-
         <!-- Team Start -->
         <div class="container-fluid py-5">
             <div class="container pt-5 pb-3">

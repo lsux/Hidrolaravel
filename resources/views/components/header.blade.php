@@ -1,43 +1,25 @@
-    <!-- Navbar Start -->
-    <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a title="Logo de hidrobolivar" href="index.html">
-                    <Image
-                        src='/img/logo-hidro.png'
-                        width="110"
-                        heigth="110"
-                        allign="right"
-
-                    />
-                </a>
-                <!-- <a href="" class="navbar-brand">
-                    <h1 class="m-0 text-primary"><span class="text-dark">TRAVEL</span>ER</h1>
-                </a> -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="noticias.html" class="nav-item nav-link">Noticias</a>
-                        <a href="acueductos.html" class="nav-item nav-link">Acueductos</a>
-                        <a href="package.html" class="nav-item nav-link">Tour Packages</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="noticias.html" class="dropdown-item">Noticias</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                                <a href="acueductos.html" class="dropdown-item">Acueductos</a>
-                                <a href="guide.html" class="dropdown-item">Travel Guides</a>
-                                <a href="testimonial.html" class="dropdown-item active">Valores</a>
-                            </div>
-                        </div>
-                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
-
-                    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid page-header">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">HidroBolívar</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Nosotros</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">Quienes somos</p>
                 </div>
-            </nav>
+            </div>
         </div>
     </div>
-    <!-- Navbar End -->
+    <!-- Header End -->
+</body>
+</html>

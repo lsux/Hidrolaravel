@@ -17,10 +17,27 @@ route::get('/', function () {
     return view('welcome');
 });
 
+route::get('/index', function () {
+    return view('index');
+});
 
-// Route::view('/Acueductos', 'acueductos');
-// Route::view('/Conocenos', 'conocenos');
-// Route::view('/Contacto', 'contacto');
-// Route::view('/Nosotros', 'nosotros');
-// Route::view('/Noticias', 'noticias');
+route::get('/acueductos', function () {
+    return view('acueductos');
+});
+
+route::get('/conocenos', function () {
+    return view('conocenos');
+});
+
+route::get('/contacto', function () {
+    return view('contacto');
+});
+
+route::get('/nosotros', function () {
+    return view('nosotros');
+});
+
+route::get('/noticias', function () {
+    return view('noticias');
+});
 

@@ -5,6 +5,11 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9570,7 +9575,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/orinoco6.jpg ), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/img/orinoco6.jpg ), no-repeat center center;
   background-size: cover;
 }
 

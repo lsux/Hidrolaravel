@@ -20,10 +20,10 @@
             </button>
             <div class="justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="nosotros.html" class="nav-item nav-link active">Nosotros</a>
-                    <a href="noticias.html" class="nav-item nav-link">Noticias</a>
-                    <a href="acueductos.html" class="nav-item nav-link">Acueductos</a>
-                    <a href="service.html" class="nav-item nav-link">Servicios</a>
+                    <a href="{{ route('nosotros')}}" class="nav-item nav-link">Nosotros</a>
+                    <a href="{{ route('noticias')}}" class="nav-item nav-link">Noticias</a>
+                    <a href="{{ route('acueductos')}}" class="nav-item nav-link">Acueductos</a>
+                    <a href="/service" class="nav-item nav-link">Servicios</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu border-0 rounded-0 m-0">
@@ -34,7 +34,7 @@
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
-                    <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+                    <a href="{{route('contacto')}}" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
         </nav>

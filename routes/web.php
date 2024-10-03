@@ -19,25 +19,25 @@ route::get('/', function () {
 
 route::get('/index', function () {
     return view('index');
-});
+})->name('index');
 
 route::get('/acueductos', function () {
     return view('acueductos');
-});
+})->name('acueductos');
 
 route::get('/conocenos', function () {
     return view('conocenos');
-});
+})->name('conocenos');
 
 route::get('/contacto', function () {
     return view('contacto');
-});
+})->name('contacto');
 
 route::get('/nosotros', function () {
     return view('nosotros');
-});
+})->name('nosotros');
 
 route::get('/noticias', function () {
     return view('noticias');
-});
+})->name('noticias');
 

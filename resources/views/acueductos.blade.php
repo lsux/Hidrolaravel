@@ -1,4 +1,6 @@
-<x-layout>
-    <x-acueductos />
+@extends('components.layout')
 
-</x-layout>
+@section('content')
+    <x-acueductos />
+@endsection
+

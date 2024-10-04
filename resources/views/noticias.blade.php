@@ -1,4 +1,5 @@
-<x-layout>
-    <x-noticias />
+@extends('components.layout')
 
-</x-layout>
+@section('content')
+    <x-noticias />
+@endsection

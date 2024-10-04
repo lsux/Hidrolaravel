@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-        <!-- Topbar Start -->
+<!-- Topbar Start -->
         <div class="container-fluid bg-light pt-3 d-none d-lg-block">
             <div class="container">
                 <div class="row">
@@ -37,6 +28,5 @@
                 </div>
             </div>
         </div>
-        <!-- Topbar End -->
-</body>
-</html>
+<!-- Topbar End -->
+

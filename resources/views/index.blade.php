@@ -1,4 +1,6 @@
-<x-layout>
+@extends('components.layout')
+
+@section('content')
     <x-nosotros />
 
     <x-acueductos />
@@ -6,4 +8,4 @@
     <x-noticias />
 
     <x-contacto />
-</x-layout>
+@endsection

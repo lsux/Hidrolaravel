@@ -1,9 +1,9 @@
-   <!-- Navbar Start -->
+<!-- Navbar Start -->
    <div class="container-fluid position-relative nav-bar p-0">
     <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
         <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
 
-            <a title="Logo de hidrobolivar" href="index.html">
+            <a title="Logo de hidrobolivar" href="{{ route('index')}}">
                 <Image
                     src='/img/logo-hidro.png'
                     width="110"
@@ -34,7 +34,7 @@
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
-                    <a href="{{route('contacto')}}" class="nav-item nav-link">Contacto</a>
+                    <a href="{{route('conocenos')}}" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
         </nav>

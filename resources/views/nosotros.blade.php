@@ -1,4 +1,8 @@
-<x-layout>
-    <x-nosotros />
+@extends('components.layout')
 
-</x-layout>
+@section('content')
+    <x-nosotros />
+@endsection
+
+
+

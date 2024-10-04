@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nosotros</title>
-</head>
-<body>
-        <!-- About Start -->
+
+<!-- Nosotros Start -->
         <div class="container-fluid py-5">
             <div class="container pt-5">
                 <div class="row">
@@ -159,24 +151,4 @@
             </div>
         </div>
         <!-- Team End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="asset{{'https://code.jquery.com/jquery-3.4.1.min.js'}}"></script>
-    <script src="asset{{'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'}}"></script>
-    <script src="asset{{'lib/easing/easing.min.js'}}"></script>
-    <script src="asset{{'lib/owlcarousel/owl.carousel.min.js'}}"></script>
-    <script src="asset{{'lib/tempusdominus/js/moment.min.js'}}"></script>
-    <script src="asset{{'lib/tempusdominus/js/moment-timezone.min.js'}}"></script>
-    <script src="asset{{'lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js'}}"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="asset{{'mail/jqBootstrapValidation.min.js'}}"></script>
-    <script src="asset{{'mail/contact.js'}}"></script>
-
-    <!-- Template Javascript -->
-    <script src="asset{{'js/main.js'}}"></script>
-</body>
-</html>
+<!-- Nosotros End -->

@@ -14,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 route::get('/', function () {
-    return view('welcome');
-});
-
-route::get('/index', function () {
     return view('index');
 })->name('index');
 
@@ -40,4 +36,6 @@ route::get('/nosotros', function () {
 route::get('/noticias', function () {
     return view('noticias');
 })->name('noticias');
+
+route::resource('acueductos/admin', \App\Http\Controllers\AcueductosController::class)->names('acueductos.admin');
 

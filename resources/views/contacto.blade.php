@@ -1,4 +1,8 @@
-<x-layout>
-    <x-contacto />
+@extends('components.layout')
 
-</x-layout>
+@section('content')
+    <x-contacto />
+@endsection
+
+
+

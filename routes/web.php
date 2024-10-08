@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,5 +38,6 @@ route::get('/noticias', function () {
     return view('noticias');
 })->name('noticias');
 
-route::resource('acueductos/admin', \App\Http\Controllers\AcueductosController::class)->names('acueductos.admin');
+route::view('/register', 'auth.register')->name('register');
 
+Route::post('/register', [AuthController::class, 'register']);

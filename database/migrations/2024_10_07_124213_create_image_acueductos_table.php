@@ -11,14 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('noticias', function (Blueprint $table) {
-            $table->id();
-            $table->string('titulo');
-            $table->string('descripcion');
-            $table->string('periodista');
-            $table->string('foto');
-            $table->boolean('estatus');
+        Schema::create('image_acueductos', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nombre');
+            $table->string('formato');
+            $table->integer('idAcueductos')->references('id')->on('acueductos')->onDelete('cascade');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -27,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('noticias');
+        Schema::dropIfExists('image_acueductos');
     }
 };

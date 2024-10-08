@@ -1,5 +1,9 @@
 @extends('components.layout')
 
+@auth
+    <h1>Logged In</h1>
+@endauth
+
 @section('content')
     <x-nosotros />
 

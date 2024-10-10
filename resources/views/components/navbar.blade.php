@@ -3,13 +3,12 @@
     <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
         <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
 
-            <a title="Logo de hidrobolivar" href="{{ route('index')}}">
+            <a title="Logo de hidrobolivar" href="{{ route('home')}}">
                 <Image
                     src='/img/logo-hidro.png'
                     width="110"
                     heigth="110"
                     allign="right"
-
                 />
             </a>
             <!-- <a href="" class="navbar-brand">
@@ -24,7 +23,7 @@
                     <a href="{{ route('noticias')}}" class="nav-item nav-link">Noticias</a>
                     <a href="{{ route('acueductos')}}" class="nav-item nav-link">Acueductos</a>
                     <a href="/service" class="nav-item nav-link">Servicios</a>
-                    <div class="nav-item dropdown">
+                    {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu border-0 rounded-0 m-0">
 
@@ -33,7 +32,7 @@
                             <a href="guide.html" class="dropdown-item">Travel Guides</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         </div>
-                    </div>
+                    </div> --}}
                     <a href="{{route('conocenos')}}" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>

@@ -45,14 +45,12 @@
                                 <button x-show="open" @click.outside="open=false" class="bg-white shadow-lg absolute top-10 right-0 rounded-lg overflow-hidden font-light">
                                     <p class="username">{{ auth()->user()->username }}</p>
                                     <a href="{{route('dashboard')}}" class="block hover:bg-slate-100 pl-4 pr-8 py-2 text-left w-full">Dashboard</a>
-                                    <form action="" method="POST">
+                                    <form action="{{route('logout')}}" method="POST">
                                         @csrf
 
-                                        <button action="{{route('logout')}}" class="block hover:bg-slate-100 pl-4 pr-8 py-2 text-left w-full">Salir</button>
+                                        <button class="block hover:bg-slate-100 pl-4 pr-8 py-2 text-left w-full">Salir</button>
                                     </form>
                                 </button>
-
-
                             </div>
                         @endauth
                     </div>

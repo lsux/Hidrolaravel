@@ -15,8 +15,6 @@ class PostController extends Controller
     {
         $posts = Post::all();
 
-        dd($posts);
-
         return view('posts.index', ['posts' => $posts]);
     }
 

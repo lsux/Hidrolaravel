@@ -34,7 +34,7 @@
             @enderror
         </div>
 
-        <button class="btn">Login</button>
+        <button type="submit" class="btn">Login</button>
     </form>
 </div>
 <!-- Login End -->

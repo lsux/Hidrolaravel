@@ -12,7 +12,7 @@ class Acueductos extends Model
     // Instancio la tabla 'acueductos'
     protected $table = 'acueductos';
 
-    // Declaro los campos que usaré de la tabla 'bicicletas'
+    // Declaro los campos que usaré de la tabla 'acueductos'
     protected $fillable = ['nombre', 'municipio', 'ubicacion', 'descripcion', 'foto', 'estatus'];
 
     // Relación One to Many (Uno a muchos), un registro puede tener muchas imágenes

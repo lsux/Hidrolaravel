@@ -5,6 +5,11 @@
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Ubicacion</h6>
                 <h1>Explora los acueductos</h1>
             </div>
+
+            @auth
+                <a href="{{route('crear_acueductos')}}"class="nav-item nav-link">Registra acueducto</a>
+            @endauth
+
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">

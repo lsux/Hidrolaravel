@@ -12,10 +12,12 @@ class AuthController extends Controller
 
         //Validar register
         $fields = $request->validate([
-            'username' => ['required', 'max:255'],
+            'name' => ['required', 'max:255'],
             'email' => ['required', 'max:255', 'email', 'unique:users'],
             'password' => ['required', 'min:3', 'confirmed']
         ]);
+
+        dd($fields);
 
         //Registrar
         $user = User::create($fields);

@@ -33,7 +33,7 @@
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         </div>
                     </div> --}}
-                    <a href="{{route('conocenos')}}" class="nav-item nav-link">Contacto</a>
+                    <a href="{{route('contacto')}}" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
         </nav>

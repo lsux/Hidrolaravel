@@ -9,9 +9,9 @@
 
             {{-- Usuario. --}}
             <div class="mb-4">
-                <label for="username">Usuario</label>
-                <input type="text" name="username" class="input ring-red-500">
-                @error('username')
+                <label for="name">Usuario</label>
+                <input type="text" name="name" class="input ring-red-500">
+                @error('name')
                     <p class="error">{{$message}}</p>
                 @enderror
             </div>

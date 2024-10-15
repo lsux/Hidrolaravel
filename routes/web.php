@@ -50,6 +50,7 @@ route::resource('posts', PostController::class);
     route::post('/login', [AuthController::class, 'login']);
 
     route::view('/acueductos', 'acueductos')->name('acueductos');
+    route::get('/acueductos', [AcueductosController::class, 'index'])->name('index_acueducto');
     route::view('/crear_acueductos', 'acueductos.crearAcueductos')->name('crear_acueductos');
     route::post('/acueductos', [AcueductosController::class, 'store'])->name('store_acueducto');
 

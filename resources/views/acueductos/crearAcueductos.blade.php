@@ -37,8 +37,8 @@
 
             <div class="mb-3">
                 <label class="mb-1">Imagen</label>
-                <input type="file" name="foto[]" class="form-control" id="foto" multiple required>
-                @error('foto')
+                <input type="file" name="fotos[]" class="form-control" id="fotos" multiple required>
+                @error('fotos.*')
                     <p class="error">{{$message}}</p>
                 @enderror
             </div>

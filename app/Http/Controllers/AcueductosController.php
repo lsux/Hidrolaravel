@@ -10,9 +10,9 @@ class AcueductosController extends Controller
 {
     public function index(){
 
-        $acueductos = Acueductos::all();
+        $acueductos = Acueductos::query()->where('estatus', true);
 
-        return view('acueductos',['acueductos'=>$acueductos]);
+        return view('acueductos',compact('acueductos'));
 
     }
 

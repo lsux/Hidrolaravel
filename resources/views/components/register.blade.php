@@ -1,11 +1,11 @@
 
 <!-- Register Start -->
-    <h1 class="title">Registra nueva cuenta</h1>
-
     <div class="mx-auto max-w-screen-sm card">
 
         <form action="{{route('register')}}" method="POST">
             @csrf
+
+            <h1 class="title">Registra nueva cuenta</h1>
 
             {{-- Usuario. --}}
             <div class="mb-4">

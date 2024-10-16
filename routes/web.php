@@ -24,7 +24,8 @@ route::resource('posts', PostController::class);
 // route::middleware('guest')->group(function(){
 
     route::get('/', function () {
-        return view('index');
+        $acueductos = null;
+        return view('index', compact('acueductos'));
     })->name('home');
 
     route::get('/conocenos', function () {
@@ -49,7 +50,6 @@ route::resource('posts', PostController::class);
     route::view('/login', 'auth.login')->name('login');
     route::post('/login', [AuthController::class, 'login']);
 
-    route::view('/acueductos', 'acueductos')->name('acueductos');
     route::get('/acueductos', [AcueductosController::class, 'index'])->name('index_acueducto');
     route::view('/crear_acueductos', 'acueductos.crearAcueductos')->name('crear_acueductos');
     route::post('/acueductos', [AcueductosController::class, 'store'])->name('store_acueducto');

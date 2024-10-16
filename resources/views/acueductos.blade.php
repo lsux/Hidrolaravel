@@ -1,6 +1,8 @@
 @extends('components.layout')
 
 @section('content')
-    <x-acueductos />
+
+    <x-acueductos :acueductos=$acueductos />
+
 @endsection
 

@@ -3,7 +3,7 @@
 @section('content')
     <x-nosotros />
 
-    <x-acueductos />
+    <x-acueductos acueductos={{$acueductos}}/>
 
     <x-noticias />
 

@@ -12,7 +12,8 @@
 
             <div class="row">
 
-                @foreach ($acueductos as $acueducto)
+                @if($acueductos)
+                    @foreach ($acueductos as $acueducto)
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="destination-item position-relative overflow-hidden mb-2">
                             <img class="img-fluid" src="img/destination-1.jpg" alt="">
@@ -22,8 +23,8 @@
                             </a>
                         </div>
                     </div>
-                @endforeach
-
+                    @endforeach
+                @endif
 
                 {{-- <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">

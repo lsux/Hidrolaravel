@@ -48,7 +48,6 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Subir</button>
             </div>
-
         </div>
     </form>
 @endsection

@@ -20,6 +20,11 @@ class AcueductosController extends Controller
         return view('acueductos',compact('acueductos'));
     }
 
+    public function details(Acueductos $acueducto){
+
+        return view('acueductos.detailAcueducto',compact('acueducto'));
+    }
+
     public function store(Request $request){
 
         // try {

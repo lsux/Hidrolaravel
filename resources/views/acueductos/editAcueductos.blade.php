@@ -1,9 +1,6 @@
 @extends('components.layout')
 
 @section('content')
-
-
-
     <div class="card flex items-center flex-col gap-3">
         <a href="{{route('index_acueducto')}}" class="block mb-2 text-x text-blue-500 gap-3">&larr; Regresa a los acueductos</a>
 

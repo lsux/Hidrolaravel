@@ -22,7 +22,6 @@
                     <a href="{{ route('nosotros')}}" class="nav-item nav-link">Nosotros</a>
                     <a href="{{ route('noticias')}}" class="nav-item nav-link">Noticias</a>
                     <a href="{{ route('index_acueducto')}}" class="nav-item nav-link">Acueductos</a>
-                    <a href="/service" class="nav-item nav-link">Servicios</a>
                     {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu border-0 rounded-0 m-0">

@@ -14,6 +14,8 @@ class Acueductos extends Model
     // Tabla a la que apunta el modelo.
     protected $table = 'acueductos';
 
+    protected $primaryKey = 'id';
+
     // Define que campos de la tabla del modelo que tiene asignacion masiva.
     protected $fillable = ['nombre', 'municipio', 'ubicacion', 'descripcion', 'foto', 'estatus'];
 
@@ -22,4 +24,6 @@ class Acueductos extends Model
     {
         return $this->hasMany(ImageAcueductos::class, 'idAcueductos', 'id');
     }
+
+    public $timestamps = true;
 }

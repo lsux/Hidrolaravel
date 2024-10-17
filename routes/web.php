@@ -53,6 +53,9 @@ route::resource('posts', PostController::class);
     route::get('/acueductos', [AcueductosController::class, 'index'])->name('index_acueducto');
     route::view('/crear_acueductos', 'acueductos.crearAcueductos')->name('crear_acueductos');
     route::post('/acueductos', [AcueductosController::class, 'store'])->name('store_acueducto');
+    route::delete('/acueductos/{acueducto}', [AcueductosController::class, 'destroy'])->name('destroy_acueducto');
+    route::get('/acueductos/{acueducto}/edit', [AcueductosController::class, 'edit'])->name('edit_acueducto');
+    route::put('/acueductos/{acueducto}', [AcueductosController::class, 'update'])->name('update_acueducto');
 
     route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
